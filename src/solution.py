@@ -7,6 +7,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # 1) Connect to the database with SQLAlchemy
+
 def connect():
     global engine
     try:
